@@ -1,1 +1,1 @@
-"# django_web_promote" 
+# django_web_promote
