@@ -11,8 +11,8 @@
                     <h1 class="display-5 fw-bolder text-white mb-2">สาขาวิทยาการคอมพิวเตอร์</h1>
                     <p class="lead text-white mb-4" style="font-size: 1.75rem;">มหาวิทยาลัยราชภัฏศรีสะเกษ</p>
                     <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#apple">Get Started</a>
-                        <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                        <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#apple">เยี่ยมชม</a>
+                        <a class="btn btn-outline-light btn-lg px-4" href="#contact">เพิ่มเติม</a>
                     </div>
                 </div>
             </div>
@@ -79,8 +79,8 @@
 <section class="py-5 border-bottom" id="study">
     <div class="container px-5 my-5 px-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bolder">เรียนกับเราได้อะไรบ้าง ?</h2>
-        </div>
+            <h2 class="fw-bolder" style="color: white;">เรียนกับเราได้อะไรบ้าง ?</h2>
+        </div>        
         <div class="row gx-4 gy-0 justify-content-center">
             <!-- Card 1 -->
             <div class="col-lg-6 col-xl-4 mb-5">
@@ -170,8 +170,8 @@
 <section class="py-5 border-bottom" id="occupation">
     <div class="container px-5 my-5">
         <div class="text-center mb-5">
-            <h2 class="fw-bolder">จบแล้วทำงานอะไรได้บ้าง ?</h2>
-        </div>
+            <h2 class="fw-bolder" style="color: white;">จบแล้วทำงานอะไรได้บ้าง ?</h2>
+        </div>        
         <div class="row gx-5 justify-content-center">
             <div class="col-lg-10">
                 <div class="card border-0 shadow-lg rounded-4 overflow-hidden transition-transform transform-hover" style="min-height: 700px;">
@@ -241,21 +241,64 @@
     </div>
 </section>
 
-<!-- Contact section-->
-<section class="py-5 border-bottom">
+<!-- Contact section -->
+<section class="py-5 border-bottom" id="contact">
     <div class="container px-5 my-5">
         <div class="row gx-5 justify-content-center">
-            <div class="col-lg-4 text-center">
-                <!-- แสดง QR Code โดยไม่มีพื้นหลังหรือกรอบ -->
-                <img src="" class="img-thumbnail" alt="...">
+            <!-- Section heading -->
+            <div class="col-12 text-center mb-4">
+                <h2 class="display-4 fw-bold" style="color: white;">ติดตามเราผ่าน QR Code</h2>
+                <p class="lead text-muted" style="color: white;">สแกน QR Code เพื่อเชื่อมต่อกับเราบนแพลตฟอร์มต่างๆ ที่คุณสนใจ</p>
+            </div>            
+            <!-- Facebook QR Code Card -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card border-light shadow-lg" style="max-width: 250px; margin: auto; height: 350px; border-radius: 15px;">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center p-3">
+                        <a href="https://www.facebook.com/comsci.sskru" target="_blank" rel="noopener noreferrer">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.facebook.com/comsci.sskru" alt="Facebook QR Code" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <i class="fab fa-facebook fa-lg me-2 text-primary"></i>
+                        <strong>Facebook</strong>
+                        <a href="https://www.facebook.com/comsci.sskru" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary mt-2">คลิกเลย</a>
+                    </div>
+                </div>
+            </div>
+            <!-- LINE QR Code Card -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card border-light shadow-lg" style="max-width: 250px; margin: auto; height: 350px; border-radius: 15px;">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center p-3">
+                        <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=793ozxpi" target="_blank" rel="noopener noreferrer">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://liff.line.me/1645278921-kWRPP32q/?accountId=793ozxpi" alt="LINE QR Code" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <i class="fab fa-line fa-lg me-2 text-success"></i>
+                        <strong>LINE</strong>
+                        <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=793ozxpi" target="_blank" rel="noopener noreferrer" class="btn btn-outline-success mt-2">คลิกเลย</a>
+                    </div>
+                </div>
+            </div>
+            <!-- TikTok QR Code Card -->
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card border-light shadow-lg" style="max-width: 250px; margin: auto; height: 350px; border-radius: 15px;">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center p-3">
+                        <a href="https://www.tiktok.com/@comsciencesskru?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.tiktok.com/@comsciencesskru?is_from_webapp=1&sender_device=pc" alt="TikTok QR Code" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="card-footer text-center py-3">
+                        <i class="fab fa-tiktok fa-lg me-2 text-dark"></i>
+                        <strong>TikTok</strong>
+                        <a href="https://www.tiktok.com/@comsciencesskru?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" class="btn btn-outline-dark mt-2">คลิกเลย</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-
-
-    
     <!-- Contact Information Section -->
     <section class="bg-dark text-light py-5">
         <div class="container px-5">
